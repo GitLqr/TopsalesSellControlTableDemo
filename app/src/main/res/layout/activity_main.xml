@@ -77,8 +77,8 @@
 
         <!--单元(房间)-->
         <com.lqr.topsales.ObservableHorizontalScrollView
-            android:layout_width="match_parent"
             android:id="@+id/sv_room"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="4dp"
             android:fillViewport="true"
@@ -98,7 +98,7 @@
                     android:text="3"
                     android:textSize="12sp"/>
 
-                <android.support.v7.widget.RecyclerView
+                <com.lqr.topsales.MyRecyclerView
                     android:id="@+id/rv_room"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
